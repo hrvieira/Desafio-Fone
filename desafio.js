@@ -8,6 +8,7 @@ for (let indice = 0; indice < listaDeTeclas.length; indice++) {
     tecla.classList.add('ativa');
     }
   }
+  
   tecla.onkeyup = function () {
     tecla.classList.remove('ativa');
   }
